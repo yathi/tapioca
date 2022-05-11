@@ -20,4 +20,4 @@ end
 
 require_relative "../lib/tapioca/internal"
 
-Tapioca::Cli.start(ARGV)
+Tapioca::Cli::Main.start(ARGV)
