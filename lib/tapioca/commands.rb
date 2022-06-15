@@ -9,6 +9,7 @@ module Tapioca
     autoload :Dsl, "tapioca/commands/dsl"
     autoload :Init, "tapioca/commands/init"
     autoload :Gem, "tapioca/commands/gem"
+    autoload :Payload, "tapioca/commands/payload"
     autoload :Require, "tapioca/commands/require"
     autoload :Todo, "tapioca/commands/todo"
   end

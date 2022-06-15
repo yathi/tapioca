@@ -290,6 +290,12 @@ module Tapioca
       command.execute
     end
 
+    desc "payload", "Generate RBI files for Ruby's core and standard library"
+    def payload
+      command = Commands::Payload.new
+      command.execute
+    end
+
     map ["--version", "-v"] => :__print_version
 
     desc "--version, -v", "show version"
