@@ -44,6 +44,8 @@ module Tapioca
       sig { override.void }
       def execute
         core_constants = list_top_level_constants
+        puts core_constants.sort
+        exit
 
         # core_constants.each do |constant|
         #   @pipeline.push_symbol(constant.to_s)
