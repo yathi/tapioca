@@ -72,6 +72,8 @@ module Tapioca
           Foo = T.let(T.unsafe(nil), ObjectSpace::WeakMap)
         RBI
       end
+
+      # TODO: add tests for generic class handling
     end
 
     describe "compilation of constants of generic types" do
