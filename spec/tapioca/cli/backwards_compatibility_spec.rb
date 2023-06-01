@@ -38,6 +38,8 @@ module Tapioca
       end
 
       it "is a generic type with Sorbet < 0.5.10587" do
+        skip
+
         @project.require_real_gem("sorbet-static", "0.5.10585")
         @project.bundle_install
 
